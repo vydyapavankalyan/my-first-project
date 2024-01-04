@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title> Register Fome</title>
+</head>
+<body background="https://wallpaperaccess.com/full/4321984.jpg" style="text-align: center;">
+	<center><h1> <font face="jokerman" color="purple">Registration Form procesing</font</h1></center>
+<form method="post" action="./Registerfome">
+	UserName	<input type="text" name="username"/><br><br>
+	Password	<input type="password" name="password"/><br><br>
+			
+Qualification <input type="checkbox" name="qualification" value="BSC"/>BSC 
+		<input type="checkbox" name="qualification" value="MCA"/>MCA <input type="checkbox" name="qualification" value="BTECH"/>B TECH
+							<br><br>
+
+	Gender		<input type="radio" name="gender" value="MALE"/>MALE  
+				<input type="radio" name="gender" value="FEMALE"/>FEMALE
+							<br><br>
+
+	Technologies	<select name="technologies" size="4" multiple>
+					<option value="corejava">corejava</option>
+					<option value="advjava">advjava</option>
+					<option value="spring">spring</option>
+					<option value="springboot">springboot</option>
+					<option value="microservices">microservices</option>
+					</select>
+							<br><br>
+
+	User Type	<select name="type">
+						<option value="fresher">fresher</option>
+						<option value="exp+">exp</option>
+				</select>
+							<br><br>
+	<label>Enter your Address</label><br><br>
+			Enter H.No.  <input type="text" name="address"><br><br>
+			Enter Street <input type="text" name="address"><br><br>
+			Enter Area   <input type="text" name="address"><br><br>
+				
+	Comments About Ratan sir:<textarea name="comments" rows="4" cols="25"></textarea><br><br>
+
+			<input type="submit"  value="Register"/>
+</form>
+</body>
+</html>
+	
